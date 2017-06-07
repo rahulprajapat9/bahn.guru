@@ -39,7 +39,7 @@ httpApi.set('forceSSLOptions', {
 api.use(compression())
 
 // enable static assets directory
-api.use('/assets', express.static('assets'));
+api.use('/assets2', express.static('assets'));
 
 // set routes
 api.get('/', main)
